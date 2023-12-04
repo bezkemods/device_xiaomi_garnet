@@ -823,4 +823,7 @@
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
 
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+
 </resources>
