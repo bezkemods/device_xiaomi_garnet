@@ -112,6 +112,10 @@ vendor.display.vds_allow_hwc=0
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
 
+# Dolby Vision
+ro.vendor.audio.dolby.vision.support=true
+debug.config.media.video.dolby_vision_suports=true
+
 # DPM
 persist.vendor.dpm.vndr.feature=1
 persist.vendor.dpm.vndr.halservice.enable=1
@@ -168,6 +172,7 @@ ro.hardware.keystore_desede=true
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
 ro.media.xml_variant.profiles=_parrot_v0
+ro.mediaserver.64b.enable=true
 vendor.media.omx=0
 
 # NFC
