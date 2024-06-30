@@ -71,9 +71,11 @@ PRODUCT_PACKAGES += \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
     libagmclient \
+    libaudioroute.vendor \
     libbatterylistener \
     libfmpal \
     libpalclient \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
