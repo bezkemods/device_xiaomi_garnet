@@ -14,6 +14,10 @@ persist.vendor.camera.ois.video=1
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
