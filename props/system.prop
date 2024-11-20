@@ -18,6 +18,12 @@ ro.lmk.kill_timeout_ms=15
 pm.sleep_mode=1
 vendor.post_boot.parsed=1s
 
+# IMS Debugging
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
